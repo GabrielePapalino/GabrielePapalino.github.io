@@ -17,7 +17,7 @@ en: &DEFAULT_EN
       section: timeline
     - title: "Homeworks"
       section: portfolio
-    - title: "Contact"
+    - title: "Contacts"
       section: team
 en-US:
   <<: *DEFAULT_EN
