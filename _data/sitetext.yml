@@ -17,8 +17,8 @@ en: &DEFAULT_EN
     buttonlink: "#portfolio"
     
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Homeworks"
+    text: "Here you can find all my homeworks"
     section: portfolio
     closebutton: "Close Project"
 
