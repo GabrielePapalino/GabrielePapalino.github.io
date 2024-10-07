@@ -24,44 +24,39 @@ en: &DEFAULT_EN
 
   timeline:
     title: "Timeline"
-    text: "Lorem ipsum timeline"
+    text: "My journey"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "The beginning"
+        year: "2015"
+        desc: "The beginning of my path at the Faculty of Computer Science at the University of Rome Tor Vergata"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "My first job as a developer"
+        year: "2024"
+        desc: "I win a competition at the National Institute of Nuclear Physics and start my career as a software developer"
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "Master in Cybersecurity"
+        year: "2024"
+        desc: "I start my Master’s degree in Cybersecurity at the Sapienza University of Rome"
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Who knows <br> what's <br> next!"
 
   about:
     title: "About Me"
     text: "My story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    body: "Born in Genzano di Roma in 1996, I approached the world of computers at the young age of 5 through my father’s old Pentium III with which I discovered my passion for the tech world and video games. I later spent my teenage years kicking a ball around and increasing my knowledge of computers until I was able to buy my first desktop computer with which I was finally able to experiment with the knowledge I had acquired in software and hardware. After graduating with a scientific diploma, I decided that I wanted nothing more in life than a job in IT and enrolled in Computer Science at university."
     section: about
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Contacts"
+    text: "All my socials"
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
