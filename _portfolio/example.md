@@ -8,7 +8,7 @@ caption: #what displays in the portfolio grid:
 title: Homework n°1
 subtitle: Homework based on Statistical Units and Distributions.
 image: /assets/img/portfolio/risultato.jpg #main image, can be a link or a file in assets/img/portfolio
-alt: image alt text
+alt: Form
 
 ---
 # **Base Notions in Statistics: Population, Statistical Units, and Distribution**
@@ -97,7 +97,7 @@ This method ensures that the final sum is more accurate by accounting for roundi
 
 # **Practical Part**
 
-![simulationStructure](/gabrielepapalino.github.io/assets/img/portfolio/simulation.jpg)
+![simulationStructure](/assets/img/portfolio/simulation.jpg)
 
 **Graph Setup:**
 
@@ -117,7 +117,7 @@ A Graphics object called histogram is created for the *pictureHistogram* control
 A function *DrawGraph* is called with the *graph*, *attackers*, *servers*, *probability*, and the calculated horizontal and vertical factors. This function likely draws a representation of the attack simulation.
 Afterward, the function *DrawHistogram* is invoked, likely to visualize a histogram using the scoreboard data.
 
-![drawGraph](/gabrielepapalino.github.io/assets/img/portfolio/graph.jpg)
+![drawGraph](/assets/img/portfolio/graph.jpg)
 
 **Array for Vulnerabilities:**
 
@@ -149,7 +149,7 @@ Whenever an attacker reaches a new server (based on the score), the correspondin
 
 The method returns the vulnerabilities array, which contains information on how many times each server was attacked.
 
-![drawGraph](/gabrielepapalino.github.io/assets/img/portfolio/histogram.jpg)
+![drawGraph](/assets/img/portfolio/histogram.jpg)
 
 **Draw Rectangle for Each Server:**
 
