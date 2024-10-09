@@ -2,12 +2,12 @@
 caption: #what displays in the portfolio grid:
   title: Homework 1
   subtitle: Statistic's 1st homework
-  thumbnail: https://place-hold.it/400x300
+  thumbnail: /gabrielepapalino.github.io/assets/img/portfolio/risultato.jpg
   
 #what displays when the item is clicked:
 title: Homework n°1
 subtitle: Homework based on Statistical Units and Distributions.
-image: https://place-hold.it/400x300 #main image, can be a link or a file in assets/img/portfolio
+image: /gabrielepapalino.github.io/assets/img/portfolio/risultato.jpg #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 
 ---
@@ -50,7 +50,7 @@ The arithmetic mean is calculated as:
 
 <!--![Mean](/gabrielepapalino.github.io/assets/img/formulas/mean.jpg)-->
 
-Mean = $$\frac{x_{1} + x_{2} + \cdots + x_{n}}{n}$$
+$$\bar{x}\frac{x_{1} + x_{2} + \cdots + x_{n}}{n}$$
 
 ​where $$x_1, x_2, \dots, x_n$$ are the data points, and $$n$$ is the number of observations.
 
@@ -95,8 +95,71 @@ Update the compensation to reflect the lost precision in the previous step.
 
 This method ensures that the final sum is more accurate by accounting for rounding errors incrementally, especially in large datasets where such errors can accumulate significantly.
 
-### **Practical Part**
+# **Practical Part**
 
+![simulationStructure](/gabrielepapalino.github.io/assets/img/portfolio/simulation.jpg)
+
+**Graph Setup:**
+
+It initializes a Graphics object called graph for drawing on the *pictureGraph* control and clears it with a white background. A black pen (*pen*) is created for drawing the graph.
+
+**Graph Partitioning:**
+
+The code retrieves values from text fields (*textAttackers*, *textServers*, and *textProbability*) and parses them into integers (*attackers*, *servers*) and a float (*probability*).
+It calculates horizontal and vertical scaling factors based on the size of the graph area (*pictureGraph.Width* and *Height*) and the number of servers, which determine how the graph is partitioned.
+
+**Histogram Setup:**
+
+A Graphics object called histogram is created for the *pictureHistogram* control, which is also cleared with a white background, likely to represent the histogram.
+
+**Functions Call:**
+
+A function *DrawGraph* is called with the *graph*, *attackers*, *servers*, *probability*, and the calculated horizontal and vertical factors. This function likely draws a representation of the attack simulation.
+Afterward, the function *DrawHistogram* is invoked, likely to visualize a histogram using the scoreboard data.
+
+![drawGraph](/gabrielepapalino.github.io/assets/img/portfolio/graph.jpg)
+
+**Array for Vulnerabilities:**
+
+An integer array vulnerabilities is created to track which servers have been attacked, with each element representing a server.
+
+**Random Initialization:**
+
+A Random object is initialized to randomize the attackers’ behavior.
+
+**Attackers Iteration (Outer Loop):**
+
+The outer for loop runs through all attackers (attackers variable), differentiating them by setting a random pen color (pen.Color). A Point object (point) is initialized at the bottom of the graph to represent where each attacker starts. The variable score is initialized to track which server the attacker reaches.
+
+**Servers Iteration (Inner Loop):**
+
+The inner loop iterates through all the servers (servers variable), representing the attacker's path across the servers.
+
+**Direction of Movement:**
+
+For each server, a random decision determines if the attacker will "move up" or "move right."
+If the randomly generated number is less than the probability, the attacker moves upward (up point) vertically by subtracting vertical from the current Y position. A line is drawn from the current position to this new upward point.
+Otherwise, the attacker moves horizontally (right point) by adding horizontal to the X position. A line is drawn to the new rightward position.
+
+**Marking Vulnerabilities:**
+
+Whenever an attacker reaches a new server (based on the score), the corresponding element in the vulnerabilities array is incremented by 1, signifying an attack on that server.
+
+**Return Value:**
+
+The method returns the vulnerabilities array, which contains information on how many times each server was attacked.
+
+![drawGraph](/gabrielepapalino.github.io/assets/img/portfolio/histogram.jpg)
+
+**Draw Rectangle for Each Server:**
+
+For each server (*i*), if it has been attacked at least once (i.e., *scoreboard[i] != 0*), a rectangle is drawn to represent the number of attacks on that server.
+The height of the rectangle is calculated by subtracting a proportion of the server's attack score from the total height of the *pictureHistogram* control. The more attacks a server has, the higher the rectangle extends from the bottom of the histogram.
+The width of the rectangle is determined by dividing the total width of the histogram by the number of servers and multiplying it by the score of the server. This ensures that the width of the bar is proportional to the attack count relative to the total number of attackers.
+
+**Histogram Visualization:**
+
+The function *histogram.DrawRectangle* is called to draw each rectangle at its appropriate position and size within the histogram area. The height of each rectangle reflects the number of attacks on the respective server.
 
 {:.list-inline} 
 - Date: 9th of October 2024
