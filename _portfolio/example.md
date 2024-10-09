@@ -67,7 +67,8 @@ Catastrophic cancellation occurs when subtracting two nearly equal numbers resul
 
 For example, if you calculate:
 
-$$x=1.00000001 − 1.00000000$$  
+$$x=1.00000001 − 1.00000000$$   
+
 in a system with limited precision, you might end up with a result that is inaccurate or even zero.
 
 This issue becomes problematic when summing large numbers of values or when averaging very large and very small numbers in the same dataset, as errors accumulate.
@@ -76,66 +77,10 @@ This issue becomes problematic when summing large numbers of values or when aver
 The straightforward summation of values to compute an average, especially when dealing with floating-point numbers, can lead to substantial rounding errors. To mitigate this, better algorithms have been developed, such as Donald Knuth's method for calculating running averages.
 
 Recursive Formula for Mean
-The recursive formula allows for updating the mean as new data points arrive. Given a new data point 
-𝑥
-𝑛
-+
-1
-x 
-n+1
+The recursive formula allows for updating the mean as new data points arrive. Given a new data point $$x_{n+1}$$, and an existing mean $$	\mu_n$$ of $$n$$ data points, the new mean $$	\mu_{n+1}$$ can be computed as:
 ​
- , and an existing mean 
-𝜇
-𝑛
-μ 
-n
-​
-  of 
-𝑛
-n data points, the new mean 
-𝜇
-𝑛
-+
-1
-μ 
-n+1
-​
-  can be computed as:
 
-𝜇
-𝑛
-+
-1
-=
-𝜇
-𝑛
-+
-𝑥
-𝑛
-+
-1
-−
-𝜇
-𝑛
-𝑛
-+
-1
-μ 
-n+1
-​
- =μ 
-n
-​
- + 
-n+1
-x 
-n+1
-​
- −μ 
-n
-​
- 
-​
+$$	\mu_{n+1}= \mu_n + \frac{x_{n+1}-\mu_n}{n + 1}$$
  
 This formula avoids recalculating the mean from scratch each time a new data point is added and is useful for large datasets.
 
@@ -144,10 +89,13 @@ Knuth and others developed improved algorithms to minimize the errors that arise
 
 The Kahan summation algorithm proceeds as follows:
 
-Initialize the sum and a compensation variable, which starts at 0.
-For each number in the dataset, add it to the sum, but adjust it by the compensation term to minimize error.
-Update the compensation to reflect the lost precision in the previous step.
+Initialize the sum and a compensation variable, which starts at 0.  
+For each number in the dataset, add it to the sum, but adjust it by the compensation term to minimize error.  
+Update the compensation to reflect the lost precision in the previous step.  
+
 This method ensures that the final sum is more accurate by accounting for rounding errors incrementally, especially in large datasets where such errors can accumulate significantly.
+
+### **Practical Part**
 
 
 {:.list-inline} 
