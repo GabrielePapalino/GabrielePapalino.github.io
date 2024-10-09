@@ -2,12 +2,12 @@
 caption: #what displays in the portfolio grid:
   title: Homework 1
   subtitle: Statistic's 1st homework
-  thumbnail: /gabrielepapalino.github.io/assets/img/portfolio/risultato.jpg
+  thumbnail: /assets/img/portfolio/risultato.jpg
   
 #what displays when the item is clicked:
 title: Homework n°1
 subtitle: Homework based on Statistical Units and Distributions.
-image: /gabrielepapalino.github.io/assets/img/portfolio/risultato.jpg #main image, can be a link or a file in assets/img/portfolio
+image: /assets/img/portfolio/risultato.jpg #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 
 ---
