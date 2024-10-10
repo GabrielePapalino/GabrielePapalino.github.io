@@ -1,12 +1,12 @@
 ---
 title: Homework n°2
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
+subtitle: Recursive calculation of the Mean and Variance of the attackers vs server simulation.
 image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-full.jpg
 alt: Shirts on a hanger
 
 caption:
   title: Homework 2
-  subtitle: Illustration
+  subtitle: Mean and Variance
   thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg
 ---
 
