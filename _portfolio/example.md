@@ -188,7 +188,9 @@ The method recursively processes each element in the scoreboard array. For each 
 Once the recursion reaches the end of the array (i.e., when i equals or exceeds *scoreboard.Length*), the final sum is divided by the number of elements in the array to calculate the mean.
 
 [Homework1.rar](https://github.com/GabrielePapalino/statistics/raw/refs/heads/main/Homework%201.rar)
+
 {:.list-inline} 
+
 - Date: 9th of October 2024
 
 
