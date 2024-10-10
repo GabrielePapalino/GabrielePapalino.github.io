@@ -149,7 +149,7 @@ Whenever an attacker reaches a new server (based on the score), the correspondin
 
 The method returns the vulnerabilities array, which contains information on how many times each server was attacked.
 
-![drawGraph](/assets/img/portfolio/histogram.jpg)
+![drawHistogram](/assets/img/portfolio/histogram.jpg)
 
 **Draw Rectangle for Each Server:**
 
@@ -161,7 +161,35 @@ The width of the rectangle is determined by dividing the total width of the hist
 
 The function *histogram.DrawRectangle* is called to draw each rectangle at its appropriate position and size within the histogram area. The height of each rectangle reflects the number of attacks on the respective server.
 
+
+![recursiveMean](/assets/img/portfolio/recursivemean.jpg)
+
+**Recursive mean calculation**
+
+
+**The method meanCalculation accepts three parameters:**
+
+*scoreboard*: an array of integers containing the values for which the mean is being calculated.
+*i*: an integer representing the current index in the array during the recursion.
+*sum*: a floating-point number that accumulates the sum of the array elements.
+
+**Base Case:**
+
+The line if (*i >= scoreboard.Length*) return *sum / scoreboard.Length* checks if the current index *i* has reached or exceeded the length of the scoreboard array.
+If so, the recursion stops, and the method returns the average, which is the accumulated sum divided by the number of elements in the array (*scoreboard.Length*).
+Recursive Step:
+
+The line *sum += scoreboard[i]* adds the current element at index *i* of the scoreboard array to the running total sum.
+The recursive call return *meanCalculation(scoreboard, i + 1, sum)* moves to the next element by incrementing the index i and passing the updated sum along with it.
+
+**Overall Logic:**
+
+The method recursively processes each element in the scoreboard array. For each recursive call, it adds the current element to the sum and moves to the next index.
+Once the recursion reaches the end of the array (i.e., when i equals or exceeds *scoreboard.Length*), the final sum is divided by the number of elements in the array to calculate the mean.
+
+[Homework1.rar](https://github.com/GabrielePapalino/statistics/raw/refs/heads/main/Homework%201.rar)
 {:.list-inline} 
 - Date: 9th of October 2024
+
 
 
