@@ -53,23 +53,6 @@ en: &DEFAULT_EN
     text: "My story"
     body: "Born in Genzano di Roma in 1996, I approached the world of computers at the young age of 5 through my father’s old Pentium III with which I discovered my passion for the tech world and video games. I later spent my teenage years kicking a ball around and increasing my knowledge of computers until I was able to buy my first desktop computer with which I was finally able to experiment with the knowledge I had acquired in software and hardware. After graduating with a scientific diploma, I decided that I wanted nothing more in life than a job in IT and enrolled in Computer Science at university."
     section: about
-
-  team:
-    title: "Contacts"
-    text: "All my Socials"
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
       
   contact:
     title: "Contact Me"
@@ -89,8 +72,8 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
+      - url: https://x.com/PAPONEtv
+        icon: "fab fa-x-twitter"
       - url: https://www.linkedin.com/in/gabriele-maria-papalino/
         icon: "fab fa-linkedin-in"
       - url: https://github.com/GabrielePapalino

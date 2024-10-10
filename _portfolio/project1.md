@@ -1,11 +1,11 @@
 ---
-title: Project Threads
+title: Homework n°2
 subtitle: subtitle lorem ipsum dolor sit amet consectetur.
 image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-full.jpg
 alt: Shirts on a hanger
 
 caption:
-  title: Threads
+  title: Homework 2
   subtitle: Illustration
   thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg
 ---
@@ -14,6 +14,5 @@ Use this area to describe your project. **Markdown** supported. This entry (proj
 
 {:.list-inline}
 
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
+- Date: October 202024
+
