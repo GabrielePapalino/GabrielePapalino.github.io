@@ -1,7 +1,7 @@
 ---
 title: Homework n°2
 subtitle: Recursive calculation of the Mean and Variance of the attackers vs server simulation with absoloute and relative frequencies.
-image: /assets/img/portfolio/timestep.jpg
+image: /assets/img/portfolio/euler-maru.jpg
 alt: Euler-Maruyama
 
 caption:
@@ -35,6 +35,21 @@ $$= (x_N-\bar{x}_N)(x_N - \bar{x}_N - \bar{x}_{N-1} + \bar{x}_N)$$
 $$= (x_N-\bar{x}_N)(x_N - \bar{x}_{N-1})$$
 
 # **Practical Part**
+
+This stocastic process using the Euler-Maruyama method simulates multiple attackers trying to exploit vulnerabilities in a set of servers, using a probabilistic approach. It visualizes the outcomes of each attacker's attempts through three different types of graphs:
+
+**Random Walk**
+
+![timestep](/assets/img/portfolio/timestep.jpg)
+
+Shows the overall attack progression for each attacker as they succeed or fail in exploiting vulnerabilities. This is done by emulating a random walk with parameters +1 in case of success and -1 otherwise. Furthermore, in order to understand the performance of the simulation for a given intermediate time t, the distribution at that time is calculated with its mean and variance.
+
+
+![Absoloute Frequency](/assets/img/portfolio/absoloute.jpg)
+
+
+
+![Relative Frequency](/assets/img/portfolio/relative.jpg)
 
 
 
