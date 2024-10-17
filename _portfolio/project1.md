@@ -40,21 +40,26 @@ This stocastic process using the Euler-Maruyama method simulates multiple attack
 
 **Random Walk**
 
-![timestep](/assets/img/portfolio/timestep.jpg)
+![timestep](/assets/img/portfolio/timestep2.jpg)
 
 Shows the overall attack progression for each attacker as they succeed or fail in exploiting vulnerabilities. This is done by emulating a random walk with parameters +1 in case of success and -1 otherwise. Furthermore, in order to understand the performance of the simulation for a given intermediate time t, the distribution at that time is calculated with its mean and variance.
 
+**Absoloute Frequency**
 
 ![Absoloute Frequency](/assets/img/portfolio/absoloute.jpg)
 
+ Absolute trajectories in this context refer to the path or progression of an attacker’s success in exploiting servers over time, represented on the absolute graph. Each trajectory illustrates how the total number of successful attacks changes with each step or server interaction.
 
+
+**Relative Frequency**
 
 ![Relative Frequency](/assets/img/portfolio/relative.jpg)
 
+Relative trajectories in this context represent the success rate of attackers over time, visualized on the relative graph. Unlike absolute trajectories, which track the total number of successful attacks, relative trajectories focus on the ratio of successes to attempts, providing a measure of how efficiently an attacker is performing as they continue to interact with servers.
+By examining relative trajectories, you can understand not just how many successes an attacker achieved, but how effectively they achieved them throughout the simulation.
 
 
-
-
+[Homework2.rar](https://github.com/GabrielePapalino/statistics/raw/refs/heads/main/Homework%201.rar)
 
 {:.list-inline}
 
