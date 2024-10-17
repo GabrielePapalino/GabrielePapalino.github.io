@@ -1,13 +1,13 @@
 ---
 title: Homework n°2
 subtitle: Recursive calculation of the Mean and Variance of the attackers vs server simulation with absoloute and relative frequencies.
-image: /assets/img/portfolio/euler-maru.jpg
+image: /assets/img/portfolio/timestep.jpg
 alt: Euler-Maruyama
 
 caption:
   title: Homework 2
   subtitle: Euler–Maruyama simulator
-  thumbnail: /assets/img/portfolio/euler-maru.jpg
+  thumbnail: /assets/img/portfolio/timestep.jpg
 ---
 
 # **Welford Recursion**
