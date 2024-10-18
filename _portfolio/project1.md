@@ -82,7 +82,7 @@ The T Mean (0.4167) and T Variance (2.8888) might be derived from a transformed 
 
 Overall, the mean and variance values suggest a simulation with some spread, and the difference between absolute and relative variance hints at a model where proportions introduce additional variability.
 
-[Homework2.rar](https://github.com/GabrielePapalino/statistics/raw/refs/heads/main/Homework%201.rar)
+[Homework2.rar](https://github.com/GabrielePapalino/statistics/raw/refs/heads/main/Homework%202.rar)
 
 {:.list-inline}
 
