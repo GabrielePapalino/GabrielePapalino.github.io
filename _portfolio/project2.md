@@ -2,7 +2,7 @@
 title: Homework n°3
 subtitle: Median,Location or Central Tendecy and Continuous time process simulator
 image: /assets/img/portfolio/continuous.jpg
-alt: Euler-Maruyama
+alt: SDE
 
 caption:
   title: Homework 3
@@ -113,11 +113,11 @@ This aligns with concepts in continuous-time models like Poisson processes, wher
 
 This kind of simulation is often used in various fields like cybersecurity, risk analysis, queuing theory, and reliability engineering.  
 
-![Continuous Path](/assets/img/portfolio/continuous.jpg)
+![Continuous Path](/assets/img/portfolio/continuous1.jpg)
 
 In real-world scenarios, events like cyberattacks, system failures, or breaches don’t occur at regular intervals but rather happen randomly over time. A continuous-time simulation using jumps allows for the modeling of these occurrences more accurately to give a deeper understanding of the timing and frequency of unpredictable events that significantly affect system performance and security.
 
-[Homework3.rar](https://github.com/GabrielePapalino/statistics/raw/refs/heads/main/Homework%202.rar)
+[Homework3.rar](https://github.com/GabrielePapalino/statistics/raw/refs/heads/main/Homework%203.rar)
 
 {:.list-inline}
 
