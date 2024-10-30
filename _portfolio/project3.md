@@ -1,13 +1,13 @@
 ---
 title: Homework n°4
 subtitle: Statistical independence and SDE simulator used to represent the scaling limit of the random Walk
-image: /assets/img/portfolio/continuous.jpg
+image: /assets/img/portfolio/Wiener.jpg
 alt: SDE
 
 caption:
   title: Homework 4
   subtitle: Continuous time process simulator
-  thumbnail: /assets/img/portfolio/continuous.jpg
+  thumbnail: /assets/img/portfolio/Wiener.jpg
 ---
 
 # **Statistical Independence**
@@ -41,6 +41,17 @@ From a distributional perspective, when two random variables are independent, th
 
 # **Practical Part**
 
+The image shows a simulation of a Wiener process, also known as Brownian motion, with specific parameters.this type of simulation can be used to study random phenomena, such as the diffusion of particles in a fluid or the random movements of individuals within a network, where the outcome is based on probabilistic interactions.
+
+![Wiener Process](/assets/img/portfolio/Wiener7.jpg)
+
+The simulation of a Wiener process shown in the image is significant because it illustrates principles like Donsker’s Invariance Principle (also known as the Functional Central Limit Theorem). This theorem establishes a crucial link between discrete random processes and continuous ones, specifically showing that certain types of discrete processes converge to the Wiener process as the number of steps goes to infinity.
+
+**More in deep**
+
+Donsker's Invariance Principle states that the rescaled sum of i.i.d. random variables with finite variance converges in distribution to a Wiener process (or standard Brownian motion) as the number of steps grows. In essence, the theorem generalizes the Central Limit Theorem to the level of functions or paths rather than single values.
+
+The theorem allows us to approximate continuous Brownian motion with a large number of discrete random walks. In practical terms, it means that processes like stock prices, particle diffusion, and network dynamics can be studied using discrete models, knowing they will behave like continuous Wiener processes as the sample size becomes large.
 
 {:.list-inline}
 
