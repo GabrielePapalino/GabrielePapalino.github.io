@@ -53,6 +53,8 @@ Donsker's Invariance Principle states that the rescaled sum of i.i.d. random var
 
 The theorem allows us to approximate continuous Brownian motion with a large number of discrete random walks. In practical terms, it means that processes like stock prices, particle diffusion, and network dynamics can be studied using discrete models, knowing they will behave like continuous Wiener processes as the sample size becomes large.
 
+[Homework4.rar](https://github.com/GabrielePapalino/statistics/raw/refs/heads/main/Homework%204.rar)
+
 {:.list-inline}
 
 - Date: 30 October 2024
