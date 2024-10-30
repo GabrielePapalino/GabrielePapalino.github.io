@@ -53,7 +53,7 @@ This code essentially simulates a two-dimensional random walk with vertical move
 
 ![Wiener Process](/assets/img/portfolio/Wiener7.jpg)
 
-The image shows a simulation of a Wiener process, also known as Brownian motion, with specific parameters.this type of simulation can be used to study random phenomena, such as the diffusion of particles in a fluid or the random movements of individuals within a network, where the outcome is based on probabilistic interactions.
+The image shows a simulation of a Wiener process, also known as Brownian motion, with specific parameters. This type of simulation can be used to study random phenomena, such as the diffusion of particles in a fluid or the random movements of individuals within a network, where the outcome is based on probabilistic interactions.
 
 
 **More in deep**
