@@ -42,11 +42,6 @@ From a distributional perspective, when two random variables are independent, th
 # **Practical Part**
 
 
-
-
-
-
-
 {:.list-inline}
 
 - Date: 30 October 2024
