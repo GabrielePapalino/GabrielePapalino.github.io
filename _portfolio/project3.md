@@ -41,11 +41,20 @@ From a distributional perspective, when two random variables are independent, th
 
 # **Practical Part**
 
-The image shows a simulation of a Wiener process, also known as Brownian motion, with specific parameters.this type of simulation can be used to study random phenomena, such as the diffusion of particles in a fluid or the random movements of individuals within a network, where the outcome is based on probabilistic interactions.
+The simulation of a Wiener process shown in the image is significant because it illustrates principles like Donsker’s Invariance Principle (also known as the Functional Central Limit Theorem). This theorem establishes a crucial link between discrete random processes and continuous ones, specifically showing that certain types of discrete processes converge to the Wiener process as the number of steps goes to infinity.
+
+
+![Wiener Process Code](/assets/img/portfolio/wienercode.jpg)
+
+This code essentially simulates a two-dimensional random walk with vertical movement based on a probability threshold. Each "attacker" has a unique path composed of up and down steps that are scaled by sqrt_dt, and the horizontal movement advances consistently at each time step where:
+
+*dt*: This is the time interval, calculated as 1 / servers. It represents the small increment in time for each step.
+*sqrt_dt*: The square root of dt, which is used to scale the vertical step size. This scaling is typical in Wiener processes to ensure variance increases linearly with time.
 
 ![Wiener Process](/assets/img/portfolio/Wiener7.jpg)
 
-The simulation of a Wiener process shown in the image is significant because it illustrates principles like Donsker’s Invariance Principle (also known as the Functional Central Limit Theorem). This theorem establishes a crucial link between discrete random processes and continuous ones, specifically showing that certain types of discrete processes converge to the Wiener process as the number of steps goes to infinity.
+The image shows a simulation of a Wiener process, also known as Brownian motion, with specific parameters.this type of simulation can be used to study random phenomena, such as the diffusion of particles in a fluid or the random movements of individuals within a network, where the outcome is based on probabilistic interactions.
+
 
 **More in deep**
 
