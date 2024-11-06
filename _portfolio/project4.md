@@ -139,7 +139,7 @@ where $$\sigma_x$$ and $$\sigma_y$$ are the standard deviations of $$x$$ and $$y
 
 ### **E-M simulator Enhancement**
 
-![Interface](/assets/img/portfolio/home.jpg)
+![Interface](/assets/img/portfolio/home7.jpg)
 
 This window represent an interface to access different functionalities or tasks, with each button leading to a different stochastic differential equation developed step by step during the course
 
