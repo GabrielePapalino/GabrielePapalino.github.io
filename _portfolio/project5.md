@@ -1,13 +1,13 @@
 ---
 title: Homework n°6
 subtitle: Fundamental Theorem of Calculus (FTC) and probability distributions with their CDFs
-image: /assets/img/portfolio/home.jpg
+image: /assets/img/portfolio/distribution.jpg
 alt: SDE
 
 caption:
   title: Homework 6
   subtitle: Fundamental Theorem of Calculus (FTC)
-  thumbnail: /assets/img/portfolio/home.jpg
+  thumbnail: /assets/img/portfolio/distribution.jpg
 ---
 
 # **Fundamental Theorem of Calculus (FTC) and probability distributions with their CDFs**
@@ -85,10 +85,41 @@ This relationship allows us to move between cumulative probabilities and probabi
 
 # **Practical Part**
 
+![Distributions](/assets/img/portfolio/distributions.jpg)
 
 
+To analyze the results displayed in this simulation, let's compare the empirical distribution statistics with the theoretical distribution:
 
+**Theoretical Distribution:**
 
+Mean: 4.90
+Variance: 4.13
+This distribution represents the expected (ideal) outcome based on a known probability distribution, likely reflecting a uniform or normal distribution used as a reference model for the simulation.
+
+**Empirical Distribution:**
+
+Mean: 5.52
+Variance: 7.08
+This distribution is derived from the simulated draws (20 in this case), which creates a sample approximation of the theoretical distribution.
+
+**Comparison and Interpretation**
+
+**Mean Comparison:**
+
+The empirical mean (5.52) is slightly higher than the theoretical mean (4.90). This difference suggests that, in this particular sample of 20 draws, the observed values are somewhat skewed to higher values relative to the theoretical expectation.
+Since the empirical mean is based on a relatively small sample (20 draws), this difference is expected to decrease with a larger sample size due to the law of large numbers. In larger samples, empirical means typically converge more closely to theoretical means.  
+
+**Variance Comparison:**
+
+The empirical variance (7.08) is noticeably higher than the theoretical variance (4.13). A higher variance in the empirical distribution suggests that the observed values in this sample are more spread out around the mean than the theoretical model predicts.
+With a small sample size, it’s common to see a larger empirical variance due to increased sensitivity to outliers or clusters of values. In simulations, smaller samples can exhibit high variance simply because each draw can significantly impact the overall spread.
+
+**Relationship and Implications:**
+
+The differences between empirical and theoretical mean/variance suggest that this particular sample does not perfectly represent the theoretical model, which is expected with only 20 draws.
+For more accurate empirical values, increasing the number of draws would typically bring the empirical mean and variance closer to the theoretical values, as random fluctuations would average out across a larger dataset.
+This example highlights the importance of sample size in achieving results that are representative of the underlying theoretical distribution, demonstrating how empirical distributions approximate theoretical ones with sufficient data.
+In summary, the observed empirical values deviate from the theoretical values, with a higher mean and variance. This deviation can largely be attributed to the small sample size.
 
 
 {:.list-inline}
