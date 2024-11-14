@@ -122,6 +122,9 @@ This example highlights the importance of sample size in achieving results that 
 In summary, the observed empirical values deviate from the theoretical values, with a higher mean and variance. This deviation can largely be attributed to the small sample size.
 
 
+[Homework6.rar](https://github.com/GabrielePapalino/statistics/raw/refs/heads/main/Homework%206.rar)
+
+
 {:.list-inline}
 
 - Date: 13 November 2024
