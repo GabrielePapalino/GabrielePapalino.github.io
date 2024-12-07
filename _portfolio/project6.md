@@ -83,7 +83,7 @@ These values likely correspond to generators of cyclic groups or produce high-en
 The choice of $$ g $$ maximizes uniformity across residue distributions, minimizing bias and ensuring robustness against attacks.
 
 
-## Case B: Modular Exponentiation for $$ n = 15 $$
+### Case B: Modular Exponentiation for $$ n = 15 $$
 
 ### Observations
 
