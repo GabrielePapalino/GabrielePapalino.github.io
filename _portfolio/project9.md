@@ -159,7 +159,7 @@ The characteristic function of rationals in $$[0, 1]$$ (1 for rational $$x$$, 0 
 
 
 
-[Homework10.rar](https://github.com/GabrielePapalino/statistics/raw/refs/heads/main/Homework%210.rar)
+[Homework10.rar](https://github.com/GabrielePapalino/statistics/raw/refs/heads/main/Homework%2010.rar)
 
 {:.list-inline}
 
