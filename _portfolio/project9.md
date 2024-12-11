@@ -1,13 +1,13 @@
 ---
 title: Homework n°10
 subtitle: Lebesgue–Stieltjes integration and applications to Probability theory
-image: /assets/img/portfolio/integralesquare.jpg
+image: /assets/img/portfolio/integralsquare.jpg
 alt: SDE
 
 caption:
   title: Homework 10
   subtitle: Lebesgue–Stieltjes integration
-  thumbnail: /assets/img/portfolio/integralesquare.jpg
+  thumbnail: /assets/img/portfolio/integralsquare.jpg
 ---
 
 # Lebesgue–Stieltjes Integration
@@ -103,7 +103,7 @@ In spectral theory, Lebesgue–Stieltjes integration is used to represent measur
 
 # Comparison of the Results in the Image
 
-![x^2](/assets/img/portfolio/integralesquare7.jpg)
+![x^2](/assets/img/portfolio/integralsquare7.jpg)
 
 **Riemann Integral Result:**
 
