@@ -107,15 +107,15 @@ In spectral theory, Lebesgue–Stieltjes integration is used to represent measur
 
 **Riemann Integral Result:**
 
-41.66666
+333.33325
 
 **Lebesgue Integral Result:**
 
- 41.60419
+ 332.83350
 
 ## Why Are the Results Close but Different?
 
-The function $$ f(x) = x^2 $$ is continuous and smooth over the interval $$[0, 5]$$. For such functions:
+The function $$ f(x) = x^2 $$ is continuous and smooth over the interval $$[0, 10]$$. For such functions:
 
 **Both integrals converge** to nearly the same value as the number of subdivisions ($$n$$) increases.  
 The **slight difference** arises from the numerical approximation methods used in the implementation.   
